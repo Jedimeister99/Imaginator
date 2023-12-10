@@ -1,0 +1,24 @@
+deepspeed --num_gpus=2 run_summarization.py \
+--model_name_or_path pszemraj/long-t5-tglobal-xl-16384-book-summary \
+--cache_dir ./cache \
+--do_train \
+--do_eval \
+--train_file training_dataset.csv \
+--validation_file evaluation_dataset.csv \
+--source_prefix "summarize: " \
+--output_dir /ExosBackup/vahn/v3 \
+--per_device_train_batch_size=1 \
+--per_device_eval_batch_size=1 \
+--report_to wandb \
+--max_source_length=2048 \
+--max_target_length=512 \
+--num_train_epochs=6 \
+--evaluation_strategy=steps \
+--eval_steps=0.02 \
+--logging_steps=0.02 \
+--save_steps=0.1 \
+--learning_rate=1e-4 \
+--num_beams=2 \
+--gradient_accumulation_steps=16 \
+--gradient_checkpointing=True \
+--deepspeed ds_config.json
