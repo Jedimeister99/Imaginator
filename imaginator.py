@@ -18,7 +18,7 @@ pytesseract.pytesseract.tesseract_cmd = ('/usr/bin/tesseract')
 def summarize(long_text):
     summarizer = pipeline(
         "summarization",
-        "zohfur/longt5-stable-diffusion-prompt",
+        "vahn9995/longt5-stable-diffusion-prompt",
         device=0 if torch.cuda.is_available() else -1,
     )
     params = {
