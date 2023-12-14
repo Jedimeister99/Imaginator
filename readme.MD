@@ -7,15 +7,15 @@ CUDA-capable NVIDIA GPU is strongly recommended. While this project can support 
 
 # How to install
 
-Install required dependencies. sudo apt install wget lzma liblzma-dev build-essential libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev zlib1g-dev nvidia-cuda-toolkit
-    - Build Python 3.10 from source.
-    - wget https://www.python.org/ftp/python/3.10.13/Python-3.10.13.tgz
-    - tar xzf Python-3.10.13.tgz
-    - cd Python-3.10.13
-    - ./configure --enable-optimizations
-    - sudo make altinstall
+Install required dependencies. sudo apt install wget lzma liblzma-dev build-essential libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev zlib1g-dev nvidia-cuda-toolkit<br />
+    - Build Python 3.10 from source.<br />
+    - wget https://www.python.org/ftp/python/3.10.13/Python-3.10.13.tgz<br />
+    - tar xzf Python-3.10.13.tgz<br />
+    - cd Python-3.10.13<br />
+    - ./configure --enable-optimizations<br />
+    - sudo make altinstall <br />
 
-Update pip. pip3.10 install --upgrade pip
+Update pip. using: pip3.10 install --upgrade pip
 
     - Create a Python virtual environment. python3.10 -m venv Imagination
     - Enter your new environment. source Imagination/bin/activate
