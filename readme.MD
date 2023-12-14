@@ -7,7 +7,7 @@ CUDA-capable NVIDIA GPU is strongly recommended. While this project can support 
 
 # How to install
 
-Install required dependencies. sudo apt install wget lzma liblzma-dev build-essential libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev zlib1g-dev nvidia-cuda-toolkit<br />
+Install required dependencies. <br />sudo apt install wget lzma liblzma-dev build-essential libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev zlib1g-dev nvidia-cuda-toolkit<br />
     - Build Python 3.10 from source.<br />
     - wget https://www.python.org/ftp/python/3.10.13/Python-3.10.13.tgz<br />
     - tar xzf Python-3.10.13.tgz<br />
