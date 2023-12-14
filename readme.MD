@@ -6,6 +6,7 @@ This is a project for combining a large language model with an OCR and Stable Di
 CUDA-capable NVIDIA GPU is strongly recommended. While this project can support CPU-only mode, it has not been tested and will require manual changes to the code to run normally. The models used for this project are fairly light, so you shouldn't need a beefy card.
 
 # How to install
+
 Install required dependencies. sudo apt install wget lzma liblzma-dev build-essential libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev zlib1g-dev nvidia-cuda-toolkit
     - Build Python 3.10 from source.
     - wget https://www.python.org/ftp/python/3.10.13/Python-3.10.13.tgz
