@@ -1,4 +1,4 @@
-# Imaginator
+# Imaginator v2.0
 This is a project for combining a large language model with an OCR and Stable Diffusion, to create a image-to-text-to-image pipeline. The project produces a Gradio link that can be hosted on a single computer. In this Gradio UI, you can upload an image of a passage of text, most recommended is a fiction novel. The pipeline will then process the image and convert the text into plaintext, convert this to a summary using a fine-tuned LLM, and pass it to a Stable Diffusion model to create an image based on the passage of text passed in.
 
 
